@@ -49,8 +49,8 @@ body {
 .wrapper {
     position: relative;
     background-color: rgb(206, 60, 15);
-    margin: 4rem 4rem 0 4rem
-    padding: 2rem;
+    margin: 4rem 4rem 0 4rem;
+    padding:  2rem;
 } 
 
 .kicker {
@@ -87,4 +87,81 @@ img.main-image {
     width: 100%;
     margin-top: -18%;
 
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0.75rem 4rem 0 4rem;
+    font-family: 'Helvetica Neue Thin Condensed';
+    font-size: 2rem;
+}
+
+.left {
+    display: flex;
+    min-width: 18ch;
+    flex-direction: column;
+} 
+
+.right {
+    display: flex;
+    flex-direction: column;
+} 
+
+.right-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-inner > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.topline {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.largename {
+    font-size: 2rem;
+    flex-wrap: nowrap;
+}
+
+.tiny {
+    font-size: 0.5rem;
+} 
+
+.smallname {
+    font-size: 1.35rem;
+    flex-wrap: nowrap;
+} 
+
+.smallwide {
+    font-family: 'Helvetica Neue Thin';
+    font-size: 1rem;
+} 
+
+.logos {
+    display: flex;
+    height: 100%;
+    border: solid 1px black
+} 
+
+.logos img {
+    display: block;
+    height: 2rem;
+    margin: auto;
+    padding: 0.5rem;
+} 
+
+.logos img:first-of-type {
+    padding-right: 0.75rem;
+    border-right: solid 1px black;
+} 
+
+.copyright {
+    font-family: 'Helvetica Neue Thin';
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
 }
