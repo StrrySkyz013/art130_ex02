@@ -37,3 +37,22 @@
     src: url('HelveticaNeuelTStd-Roman.woff2') format('woff2');
     src: url('HelveticaNeuelTStd-Roman.woff') format('woff');
 } 
+
+html {
+    background-color: beige;
+}  
+
+body {
+    font-family: 'Helvetica Neue Roman';
+}
+
+.wrapper {
+    position: relative;
+    background-color: rgb(206, 60, 15);
+    margin: 4rem 4rem 0 4rem
+}
+
+.kicker {
+    display: block;
+    margin-bottom: 0.5rem;
+}
